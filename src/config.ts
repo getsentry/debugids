@@ -2,6 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://getsentry.github.io", // replace this with your deployed domain
+  base: "debugids",
   author: "Sentry",
   desc: "The solution to broken source maps",
   title: "$debugIds",
